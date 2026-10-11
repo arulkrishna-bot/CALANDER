@@ -1,0 +1,9 @@
+{
+  "appId": "com.arulkrish.tamilcalendar3d",
+  "appName": "3D Tamil Calendar",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

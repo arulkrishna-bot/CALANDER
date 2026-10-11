@@ -1,0 +1,20 @@
+{
+  "name": "tamil-3d-calendar-app",
+  "version": "2.5.0",
+  "description": "3D Flip Glassmorphism Tamil & English Dual Calendar Android App",
+  "author": "உங்கள் பெயர்",
+  "license": "MIT",
+  "scripts": {
+    "prepare-www": "mkdir -p www && cp index.html www/",
+    "postinstall": "npm run prepare-www",
+    "build": "npm run prepare-www && npx cap sync",
+    "cap:sync": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}
